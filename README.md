@@ -4,7 +4,7 @@
 
 ---
 
-##  Project Overview
+##  ‼️Project Overview
 
 This project is a backend payment system that simulates wallet and transaction processing. It is designed to mirror real-world fintech infrastructure — with a strong emphasis on **atomicity**, **auditability**, and **idempotency** at every layer of the payment lifecycle.
 
@@ -12,7 +12,7 @@ This project was built to explore how real-world payment systems ensure **transa
 
 ---
 
-##  Core Features
+##  💢Core Features
 
 | Feature | Description |
 |---|---|
