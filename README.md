@@ -26,7 +26,7 @@ This project was built to explore how real-world payment systems ensure **transa
 
 ---
 
-##  Transaction Flow
+## 🔖 Transaction Flow
 
 This is the backbone of the entire system. Every payment and transfer goes through this pipeline — no exceptions.
 
