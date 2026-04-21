@@ -1,10 +1,10 @@
-# 💳 PayFlow — Backend Payment System
+#  PayFlow — Backend Payment System
 
 > A production-grade backend service simulating a digital wallet and payment processing engine, built with financial-grade transaction integrity in mind.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a backend payment system that simulates wallet and transaction processing. It is designed to mirror real-world fintech infrastructure — with a strong emphasis on **atomicity**, **auditability**, and **idempotency** at every layer of the payment lifecycle.
 
@@ -12,7 +12,7 @@ This project was built to explore how real-world payment systems ensure **transa
 
 ---
 
-## ⚙️ Core Features
+##  Core Features
 
 | Feature | Description |
 |---|---|
@@ -26,7 +26,7 @@ This project was built to explore how real-world payment systems ensure **transa
 
 ---
 
-## 🔄 Transaction Flow
+##  Transaction Flow
 
 This is the backbone of the entire system. Every payment and transfer goes through this pipeline — no exceptions.
 
@@ -84,7 +84,7 @@ Audit log entry created
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -125,7 +125,7 @@ This reflects real-world payment system behavior where services communicate with
 
 ---
 
-## ⚡ Concurrency & Consistency
+##  Concurrency & Consistency
 
 To ensure safe concurrent transactions:
 
@@ -135,7 +135,7 @@ To ensure safe concurrent transactions:
 
 ---
 
-## 🧪 Failure Handling
+##  Failure Handling
 
 The system explicitly handles failure scenarios:
 
@@ -150,7 +150,7 @@ No transaction is ever silently ignored.
 
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 > See `docs/erd.png` for the full Entity Relationship Diagram.
 
@@ -273,7 +273,7 @@ transactions (1) ──── (N)   audit_logs
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -307,7 +307,7 @@ cp .env.example .env
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -335,7 +335,7 @@ docs/
 
 ---
 
-## 📝 License
+##  License
 
 MIT — see `LICENSE` for details.
 
